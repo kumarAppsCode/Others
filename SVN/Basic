@@ -1,0 +1,25 @@
+sudo /opt/bitnami/apache2/bin/htpasswd /opt/bitnami/repositories/users <UserName>
+
+sudo svnadmin create /opt/bitnami/repositories/<Repository Name>
+
+sudo chmod 777 -R /opt/bitnami/repositories/<Repository Name>
+
+
+sudo /opt/bitnami/apache2/bin/htpasswd /opt/bitnami/repositories/users testabc
+
+
+
+
+sudo svnadmin create /opt/bitnami/repositories/SubContScheduler
+
+sudo chmod 777 -R /opt/bitnami/repositories/SubContScheduler
+
+
+sudo svnadmin create /opt/bitnami/repositories/NodeJS_Rest_PCS
+
+sudo chmod 777 -R /opt/bitnami/repositories/NodeJS_Rest_PCS
+
+
+sudo svnadmin create /opt/bitnami/repositories/NodeJS_Rest_SalesForce
+
+sudo chmod 777 -R /opt/bitnami/repositories/NodeJS_Rest_SalesForce
